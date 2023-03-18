@@ -1,0 +1,2 @@
+users (id, username, email, password)
+tasks (id, user_id, description, status, created_at, updated_at)

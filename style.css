@@ -1,0 +1,179 @@
+form {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+  }
+  input[type=text], input[type=email], input[type=password] {
+    display: block;
+    margin: 10px auto;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  label {
+    display: block;
+    text-align: left;
+    margin: 10px 0;
+  }
+  span {
+    color: red;
+  }
+  
+
+  form {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+  }
+  input[type=email], input[type=password] {
+    display: block;
+    margin: 10px auto;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  label {
+    display: block;
+    text-align: left;
+    margin: 10px 0;
+  }
+  span {
+    color: red;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: inline-block;
+    text-align: left;
+  }
+  
+  form label,
+  form input[type="submit"] {
+    display: block;
+  }
+  
+  form label {
+    margin-bottom: 10px;
+  }
+  
+  form input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    width: 70%;
+    margin-bottom: 20px;
+  }
+  
+  form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .buttons a {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .tasks {
+    margin-top: 50px;
+  }
+  
+  .task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .task p {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .task button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .task button:focus,
+  .task button:hover {
+    background-color: #c82333;
+  }
+  
+  .success {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .error {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  

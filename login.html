@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <form method="post" action="login.php" onsubmit="return validateLogin()">
+    <h1>Login</h1>
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email">
+    <span id="email-error"></span>
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password">
+    <span id="password-error"></span>
+    <input type="submit" value="Login">
+  </form>
+</body>
+</html>
+
